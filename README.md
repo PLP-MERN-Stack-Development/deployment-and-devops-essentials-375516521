@@ -1,5 +1,10 @@
 # Deployment and DevOps for MERN Applications
 
+fronted deployed on vercel: https://deployment-and-devops-essentials-37.vercel.app/
+
+backend deployed on render: https://deployment-and-devops-essentials-er28.onrender.com
+
+
 This assignment focuses on deploying a full MERN stack application to production, implementing CI/CD pipelines, and setting up monitoring for your application.
 
 ## Assignment Overview
