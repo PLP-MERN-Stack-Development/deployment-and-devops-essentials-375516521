@@ -1,0 +1,18 @@
+/* client/src/styles.css */
+* { box-sizing: border-box; }
+body { margin:0; font-family: Arial, sans-serif; }
+.app { display:flex; height:100vh; }
+.sidebar { width:260px; background:#f2f2f2; padding:1rem; overflow:auto; }
+.main { flex:1; display:flex; flex-direction:column; }
+.chatroom { display:flex; flex-direction:column; height:100%; }
+.chatheader { display:flex; justify-content:space-between; padding:1rem; border-bottom:1px solid #ddd; }
+.messages-container { flex:1; overflow:auto; padding:1rem; background:#fff; }
+.message-list { list-style:none; margin:0; padding:0; }
+.message { margin-bottom:1rem; padding:0.5rem; border-radius:8px; background:#f9f9f9; }
+.message .meta { font-size:0.85rem; color:#333; display:flex; justify-content:space-between; }
+.message img { max-width:200px; display:block; margin-top:0.5rem; }
+.message-input { display:flex; gap:0.5rem; padding:1rem; border-top:1px solid #ddd; }
+.message-input input[type="text"], .message-input input[type="file"] { padding:0.5rem; }
+@media (max-width: 600px) {
+  .sidebar { display:none; }
+}
